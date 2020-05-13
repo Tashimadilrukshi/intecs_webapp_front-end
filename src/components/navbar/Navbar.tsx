@@ -5,7 +5,7 @@ import "./Navbar.scss";
 import { useLocation } from "react-router-dom";
 
 function NavbarComponent() {
-  const location = useLocation();
+  let location = useLocation();
 
   return (
     <Navbar
